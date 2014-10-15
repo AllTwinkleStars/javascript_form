@@ -1,0 +1,12 @@
+.required-field:after {
+    content: ' *';
+    color: #FF0000;
+}
+
+.invalid-field {
+    border: 1px solid #FF0000;
+}
+
+#error-message {
+    display: none;
+}
